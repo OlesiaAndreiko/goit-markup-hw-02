@@ -38,6 +38,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.select-link:hover,
+.select-link:focus {
+  color: var(--accent-txt-cl);
+}
+
 /* header section */
 
 .logo {
@@ -60,21 +65,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-link:hover,
-.header-link:focus,
-.contact-link:hover,
-.contact-link:focus,
-.location:hover,
-.location:focus, 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-txt-cl);
-}
-
 .header-link-current {
   color: var(--accent-txt-cl);
 }
-.contact-link {
+
+.header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -228,11 +223,11 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-link {
+
+.footer-contact {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
