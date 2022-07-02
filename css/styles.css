@@ -118,7 +118,7 @@ body {
 /* Advantage section */
 
 .advantage-title {
-    font-size: 14px;
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -213,7 +213,6 @@ body {
 .footer {
   background-color: var(--dark-bg-cl);
 }
-
 
 .location {
   font-weight: 400;
